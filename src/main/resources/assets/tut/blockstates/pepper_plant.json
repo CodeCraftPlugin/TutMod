@@ -1,21 +1,29 @@
 {
   "variants": {
     "age=0": {
-      "model": "minecraft:block/pepper_plant_stage0"
+      "model": "tut:block/pepper_stage0"
     },
     "age=1": {
-      "model": "minecraft:block/pepper_plant_stage1"
+      "model": "tut:block/pepper_stage1"
     },
     "age=2": {
-      "model": "minecraft:block/pepper_plant_stage2"
+      "model": "tut:block/pepper_stage2"
     },
     "age=3": {
-      "model": "minecraft:block/pepper_plant_stage3"
+      "model": "tut:block/pepper_stage3"
     },
     "age=4": {
-      "model": "minecraft:block/pepper_plant_stage4"
+      "model": "tut:block/pepper_stage4"
     },
     "age=5": {
+      "model": "tut:block/pepper_stage5"
+    },
+    "age=6": {
+      "model": "tut:block/pepper_stage6"
+    },
+    "age=7": {
+      "model": "tut:block/pepper_stage7"
     }
+
   }
 }
