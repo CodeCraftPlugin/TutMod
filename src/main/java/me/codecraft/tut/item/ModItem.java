@@ -18,7 +18,7 @@ public class ModItem {
             new Item(new FabricItemSettings().group(ItemGroupMod.RUBY_MOD)));
 
     public static final Item PEPPER_SEED= registerItem("pepper_seed",
-            new BlockItem(ModBlock.PAPPER_PLANT,new FabricItemSettings().group(ItemGroupMod.RUBY_MOD)));
+            new BlockItem(ModBlock.PEPPER_PLANT,new FabricItemSettings().group(ItemGroupMod.RUBY_MOD)));
 
     public static final Item ORE_FINDER= registerItem("ore_finder",
             new Finder(new FabricItemSettings().maxDamage(20).group(ItemGroupMod.RUBY_MOD)));

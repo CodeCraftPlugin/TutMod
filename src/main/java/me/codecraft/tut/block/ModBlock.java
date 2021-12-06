@@ -64,7 +64,7 @@ public class ModBlock {
             new Trapdoor(FabricBlockSettings.of(Material.STONE).
                     strength(4.0f).breakByTool(FabricToolTags.PICKAXES,2).requiresTool().nonOpaque()));
 
-    public static final Block PAPPER_PLANT = registerBlock("papper_plant",
+    public static final Block PEPPER_PLANT = registerBlock("pepper_plant",
             new PepperPlantBlock(FabricBlockSettings.copy(Blocks.WHEAT).nonOpaque().noCollision()));
     // Methods
     private static Block registerBlock(String name,Block block){

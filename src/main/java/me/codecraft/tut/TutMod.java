@@ -3,9 +3,8 @@ package me.codecraft.tut;
 import me.codecraft.tut.block.ModBlock;
 import me.codecraft.tut.item.ModItem;
 import me.codecraft.tut.registries.ModRegistries;
+import me.codecraft.tut.util.Render;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.minecraft.client.render.RenderLayer;
 
 public class TutMod implements ModInitializer {
 
@@ -18,9 +17,9 @@ public class TutMod implements ModInitializer {
 		ModItem.registerModItem();
 		ModBlock.registerModBlock();
 		ModRegistries.registerModFuel();
+		Render.RenderLayer();
 
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlock.RUBY_DOOR, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlock.RUBY_TRAPDOOR, RenderLayer.getCutout());
+
 		System.out.println("Hello Fabric world!");
 
 	}
