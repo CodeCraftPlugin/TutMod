@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tut:pepper"
+    },
+    {
+      "item": "tut:pepper"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "tut:pepper"
+    }
+  ],
+  "result": {
+    "item": "tut:spicysoup",
+    "count": 1
+  }
+}

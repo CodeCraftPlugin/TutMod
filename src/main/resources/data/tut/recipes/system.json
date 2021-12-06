@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XSX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_block"
+    },
+    "S": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "result": {
+    "item": "tutmod:system"
+  }
+}

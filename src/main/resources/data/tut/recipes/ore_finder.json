@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XSX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "tutmod:system"
+    }
+  },
+  "result": {
+    "item": "tutmod:ore_finder"
+  }
+}
