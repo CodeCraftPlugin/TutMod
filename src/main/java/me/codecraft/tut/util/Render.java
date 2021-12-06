@@ -9,7 +9,7 @@ public class Render {
     public static void RenderLayer(){
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlock.RUBY_DOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlock.RUBY_TRAPDOOR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlock.RUBY_TRAPDOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlock.PEPPER_PLANT, RenderLayer.getCutout());
 
     }
 
