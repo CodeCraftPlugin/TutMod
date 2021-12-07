@@ -2,15 +2,14 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1,
-      "bonus_rolls": 0,
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:alternatives",
           "children": [
             {
               "type": "minecraft:item",
-              "name": "tut:pepper_plant",
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
@@ -19,23 +18,23 @@
                     "age": "7"
                   }
                 }
-              ]
+              ],
+              "name": "tut:pepper"
             },
             {
               "type": "minecraft:item",
-              "name": "tut:pepper"
+              "name": "tut:pepper_seeds"
             }
           ]
         }
       ]
     },
     {
-      "rolls": 1,
-      "bonus_rolls": 0,
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tut:pepper_seed",
           "functions": [
             {
               "function": "minecraft:apply_bonus",
@@ -46,13 +45,14 @@
                 "probability": 0.5714286
               }
             }
-          ]
+          ],
+          "name": "tut:pepper_seeds"
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:block_state_property",
-          "block": "minecraft:wheat",
+          "block": "tut:pepper_plant",
           "properties": {
             "age": "7"
           }
