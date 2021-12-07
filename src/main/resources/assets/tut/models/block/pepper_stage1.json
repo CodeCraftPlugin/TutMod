@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/crop",
   "textures": {
-    "crop": "tutorialmod:block/pepper_stage1"
+    "crop": "tut:block/pepper_stage1"
   }
 }
