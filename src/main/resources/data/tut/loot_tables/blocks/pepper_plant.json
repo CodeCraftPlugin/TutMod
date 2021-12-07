@@ -23,7 +23,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "tut:pepper_seeds"
+              "name": "tut:pepper_seed"
             }
           ]
         }
@@ -46,7 +46,7 @@
               }
             }
           ],
-          "name": "tut:pepper_seeds"
+          "name": "tut:pepper_seed"
         }
       ],
       "conditions": [
