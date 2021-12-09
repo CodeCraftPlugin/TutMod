@@ -4,7 +4,7 @@
   "package": "me.codecraft.tut.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-    
+    "EntityDataSaver"
   ],
   "client": [
     "TutMixin"
