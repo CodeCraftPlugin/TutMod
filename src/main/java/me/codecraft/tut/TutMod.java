@@ -1,5 +1,7 @@
 package me.codecraft.tut;
 
+import me.codecraft.tut.LootTableModifier.LootTable;
+import me.codecraft.tut.LootTableModifier.PepperPlant;
 import me.codecraft.tut.block.ModBlock;
 import me.codecraft.tut.item.ModItem;
 import me.codecraft.tut.registries.ModRegistries;
@@ -22,6 +24,7 @@ public class TutMod implements ModInitializer {
 		Render.RenderLayer();
 		Commandregister.CommandRegister();
 		EventRegister.registerEvents();
+		LootTable.RegisterLootable();
 
 
 		System.out.println("Hello Fabric world!");
