@@ -14,15 +14,14 @@ import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.util.Identifier;
 
 public class PepperPlant {
-    private static final Identifier GRASS = new
-            Identifier(Identifier.DEFAULT_NAMESPACE,"block/grass");
+    private static final Identifier GRASS = new Identifier("minecraft","block/grass");
     public static void LoottableModifier(){
         LootTableLoadingCallback.EVENT.register(((resourceManager, manager, id, supplier, setter) -> {
 
             if (GRASS.equals(id)){
                 FabricLootPoolBuilder fabricLootPoolBuilder = FabricLootPoolBuilder.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.39F))
+                        .conditionally(RandomChanceLootCondition.builder(1f))
                         .with(ItemEntry.builder(ModItem.PEPPER_SEED))
                         .withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f))
                         .build());
