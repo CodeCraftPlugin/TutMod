@@ -2,6 +2,7 @@ package me.codecraft.tut.item;
 
 import me.codecraft.tut.TutMod;
 import me.codecraft.tut.block.ModBlock;
+import me.codecraft.tut.item.advance.DataTablet;
 import me.codecraft.tut.item.advance.Finder;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
@@ -30,6 +31,8 @@ public class ModItem {
             .food(new FoodComponent.Builder().hunger(6).saturationModifier(2.0f).snack()
                     .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE,
                             20*60),1f).build()).group(ItemGroupMod.RUBY_MOD)));
+    public static final Item DATA_TABLET= registerItem("datatablet",
+            new DataTablet(new FabricItemSettings().group(ItemGroupMod.RUBY_MOD)));
 
     //Tools
 
