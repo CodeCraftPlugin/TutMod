@@ -2,6 +2,7 @@ package me.codecraft.tut;
 
 import me.codecraft.tut.LootTableModifier.LootTable;
 import me.codecraft.tut.block.ModBlock;
+import me.codecraft.tut.enchantments.ModEnchantments;
 import me.codecraft.tut.item.ModItem;
 import me.codecraft.tut.registries.ModRegistries;
 import me.codecraft.tut.sounds.ModSounds;
@@ -26,7 +27,7 @@ public class TutMod implements ModInitializer {
 		EventRegister.registerEvents();
 		LootTable.RegisterLootable();
 		ModSounds.registerSounds();
-
+		ModEnchantments.registerModEnchantments();
 
 		System.out.println("Hello Fabric world!");
 
